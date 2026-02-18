@@ -17,71 +17,71 @@ export default function App() {
   );
 
   // Sample data - replace with real photos and dates
-  const coupleImage = "/src/asset/one.jpeg";
+  const coupleImage = "/asset/one.jpeg";
 
   const photos = [
     {
-      url: "/src/asset/two.jpeg",
+      url: "/asset/two.jpeg",
       caption: "The moment we said yes",
       date: "December 4, 2024",
     },
     {
-      url: "/src/asset/three.jpeg",
+      url: "/asset/three.jpeg",
       caption: "Our special day",
       date: "February 17, 2025",
     },
     {
-      url: "/src/asset/four.jpeg",
+      url: "/asset/four.jpeg",
       caption: "Adventures together",
       date: "April 2025",
     },
     {
-      url: "/src/asset/five.jpeg",
+      url: "/asset/five.jpeg",
       caption: "Festival of lights",
       date: "October 2025",
     },
     {
-      url: "/src/asset/six.jpeg",
+      url: "/asset/six.jpeg",
       caption: "Laughter & joy",
       date: "December 2025",
     },
     {
-      url: "/src/asset/seven.jpeg",
+      url: "/asset/seven.jpeg",
       caption: "Forever moments",
       date: "January 2026",
     },
     {
-      url: "/src/asset/eight.jpeg",
+      url: "/asset/eight.jpeg",
       caption: "Moments of joy",
       date: "January 2026",
     },
     {
-      url: "/src/asset/nine.jpeg",
+      url: "/asset/nine.jpeg",
       caption: "Together forever",
       date: "February 2026",
     },
     {
-      url: "/src/asset/ten.jpeg",
+      url: "/asset/ten.jpeg",
       caption: "Creating memories",
       date: "February 2026",
     },
     {
-      url: "/src/asset/eleven.jpeg",
+      url: "/asset/eleven.jpeg",
       caption: "Our journey",
       date: "March 2026",
     },
     {
-      url: "/src/asset/twelve.jpeg",
+      url: "/asset/twelve.jpeg",
       caption: "Spring together",
       date: "April 2026",
     },
     {
-      url: "/src/asset/thirteen.jpeg",
+      url: "/asset/thirteen.jpeg",
       caption: "Love grows",
       date: "May 2026",
     },
     {
-      url: "/src/asset/fifteen.jpeg",
+      url: "/asset/fifteen.jpeg",
       caption: "Summer dreams",
       date: "July 2026",
     },
@@ -94,7 +94,7 @@ export default function App() {
       date: "December 4, 2024",
       description:
         "The day we promised forever to each other. A moment that changed our lives.",
-      photos: ["/src/asset/twelve.jpeg", "/src/asset/fifteen.jpeg"],
+      photos: ["/asset/twelve.jpeg", "/asset/fifteen.jpeg"],
     },
     {
       icon: <Calendar size={32} />,
@@ -102,7 +102,7 @@ export default function App() {
       date: "February 17, 2025",
       description:
         "Surrounded by love, we became one. The most beautiful day of our lives.",
-      photos: ["/src/asset/seven.jpeg", "/src/asset/nine.jpeg"],
+      photos: ["/asset/seven.jpeg", "/asset/nine.jpeg"],
     },
     {
       icon: <Home size={32} />,
@@ -117,7 +117,7 @@ export default function App() {
       date: "October 2025",
       description:
         "Celebrating traditions together. Lights, love, and laughter filled our home.",
-      photos: ["/src/asset/five.jpeg", "/src/asset/six.jpeg"],
+      photos: ["/asset/five.jpeg", "/asset/six.jpeg"],
     },
     {
       icon: <Laugh size={32} />,
@@ -132,7 +132,7 @@ export default function App() {
       date: "February 17, 2026",
       description:
         "365 days of love, laughter, and endless memories. Here's to forever!",
-      photos: ["/src/asset/eight.jpeg", "/src/asset/ten.jpeg"],
+      photos: ["/asset/eight.jpeg", "/asset/ten.jpeg"],
     },
   ];
 
